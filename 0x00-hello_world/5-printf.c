@@ -4,7 +4,7 @@
 	*main -Entry point
 	*Return: zero
 */
-	int main(void)
+	int main(Success)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
