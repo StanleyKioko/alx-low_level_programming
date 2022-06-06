@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
-	* main - prints alphabet in reverse
-
-	* Return: zero
+* main - prints alphabet in reverse
+* Return: zero
 */
-	int main(void)
+int main(void)
 {
 	char ch;
 
