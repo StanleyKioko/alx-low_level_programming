@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 /**
-	* main - print digits of base ten
-
-	* Return: zero
-	*/
-	int main(void)
-
+* main - print digits of base ten
+* Return: zero
+*/
+int main(void)
 {
 	int i;
 
