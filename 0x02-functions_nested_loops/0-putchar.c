@@ -1,18 +1,15 @@
-#include "holberton.h"
+Once you get into vi _putchar. c 
+Past in 
+#include <unistd.h>
 
 /**
-* main - debugging example
-* Return: 0
-*/
-int main(void)
+ *  * _putchar - writes the character c to stdout
+ *   * @c: The character to print
+ *    *
+ *     * Return: On success 1.
+ *      * On error, -1 is returned, and errno is set appropriately.
+ *       */
+int _putchar(char c)
 {
-	char *holberton = "Holberton";
-
-	while (*holberton)
-{
-	_putchar(*holberton);
-	holberton++;
-}
-	_putchar('\n');
-return (0);
+		return (write(1, &c, 1));
 }
