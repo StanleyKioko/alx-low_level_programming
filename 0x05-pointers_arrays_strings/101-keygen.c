@@ -6,11 +6,12 @@
  * Return: 0 (on success).
  *
  */
+
 int main(void)
 {
 	int pass, sum;
 
-	strand(time(Null));
+	srand(time(NULL));
 	sum = 0;
 	while (sum <= 2645)
 	{
