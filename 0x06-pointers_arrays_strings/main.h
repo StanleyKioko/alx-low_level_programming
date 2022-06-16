@@ -1,4 +1,4 @@
-int _putchar(char);
+int _putchar(char c);
 char *_strcat(char *dest, char *src);
 int string_length(char *pointer);
 char *_strncat(char *dest, char *src, int n);
