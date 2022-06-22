@@ -1,6 +1,6 @@
 #include "main.h"
 
-int confirm_pal(char *s, int i, int len);
+	int confirm_pal(char *s, int i, int len);
 int _strlen_recursion(char *s);
 /**
  * is_palindrome - confirms whether a number is palindrome
@@ -24,7 +24,7 @@ int _strlen_recursion(char *s)
 		return (0);
 	return (1 + _strlen_recursion(s + 1));
 }
-int confirm_pal(char *s, int i, int len)
+	int confirm_pal(char *s, int i, int len)
 {
 	if (*(s + i) != *(s + len - 1))
 		return (0);
